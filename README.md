@@ -81,9 +81,7 @@ The project uses three relational tables:
 - Imported the CSV datasets using `LOAD DATA LOCAL INFILE`.
 - Reconciled imported row counts against the source files.
 
-![Database Tables](https://github.com/temmydire/credit-risk-loan-default-analysis/blob/main/Images/Tables.png?raw=true)
-![Loading the Dataset](https://github.com/temmydire/credit-risk-loan-default-analysis/blob/main/Images/Load%20File.png?raw=true)
-
+https://github.com/temmydire/credit-risk-loan-default-analysis-/blob/main/Images/Tables.png
 
 ### 2. Exploratory Data Analysis (EDA)
 
