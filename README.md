@@ -89,11 +89,7 @@ The project uses three relational tables:
 ### 2. Loading the Dataset
 ![Loading the Dataset](./Images/Load%20File.png)
 
-### 3. Data Quality Audit
-![Data Quality Audit](./Images/audit%20table.png)
 
-### 4. Credit Risk KPIs
-![Credit Risk KPIs](./Images/KPI.png)
 
 
 ### 2. Exploratory Data Analysis (EDA)
@@ -120,7 +116,8 @@ Investigated potential data integrity issues, including:
 - Repayment snapshots occurring before loan origination.
 - Loans with severe delinquency but an inconsistent CURRENT account status.
 - Missing values and unusual repayment amounts.
-![Data Quality Audit](https://github.com/temmydire/credit-risk-loan-default-analysis/blob/main/Images/audit%20table.png?raw=true)
+
+![Data Quality Audit](./Images/audit%20table.png)
 
 Created an `audit_log` table to document identified issues, the number of affected records, the measurement unit and severity.
 
@@ -154,7 +151,9 @@ Created SQL views to calculate important credit risk indicators.
 | Collection Ratio | Percentage of scheduled payment amounts collected, grouped by credit score band |
 | Roll Rate | Movement of loans between delinquency buckets over consecutive snapshots |
 | Vintage Analysis | Cumulative charge-off performance at different months on book across origination cohorts |
-![Credit Risk KPIs](https://github.com/temmydire/credit-risk-loan-default-analysis/blob/main/Images/KPI.png?raw=true)
+
+ ![Credit Risk KPIs](./Images/KPI.png)
+
 Additional analysis included:
 - Borrower credit score segmentation.
 - Loan performance by grade.
