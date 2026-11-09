@@ -83,6 +83,7 @@ The project uses three relational tables:
 
 https://github.com/temmydire/credit-risk-loan-default-analysis-/blob/main/Images/Tables.png
 
+https://github.com/temmydire/credit-risk-loan-default-analysis-/blob/main/Images/Load%20File.png
 ### 2. Exploratory Data Analysis (EDA)
 
 Explored borrower demographics, financial characteristics and loan portfolio composition.
