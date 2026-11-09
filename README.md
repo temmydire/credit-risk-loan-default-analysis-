@@ -81,9 +81,21 @@ The project uses three relational tables:
 - Imported the CSV datasets using `LOAD DATA LOCAL INFILE`.
 - Reconciled imported row counts against the source files.
 
-https://github.com/temmydire/credit-risk-loan-default-analysis-/blob/main/Images/Tables.png
+## Project Screenshots
 
-https://github.com/temmydire/credit-risk-loan-default-analysis-/blob/main/Images/Load%20File.png
+### 1. Database Tables
+![Database Tables](./Images/Tables.png)
+
+### 2. Loading the Dataset
+![Loading the Dataset](./Images/Load%20File.png)
+
+### 3. Data Quality Audit
+![Data Quality Audit](./Images/audit%20table.png)
+
+### 4. Credit Risk KPIs
+![Credit Risk KPIs](./Images/KPI.png)
+
+
 ### 2. Exploratory Data Analysis (EDA)
 
 Explored borrower demographics, financial characteristics and loan portfolio composition.
